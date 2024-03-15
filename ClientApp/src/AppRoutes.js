@@ -1,6 +1,7 @@
 import { Home } from "./components/Home";
 import ProductDetails from "./components/Products/ProductDetails";
 import Cart from "./components/Carts/Cart";
+import CheckoutPage from './components/Checkout/CheckoutPage';
 
 
 const AppRoutes = [
@@ -15,6 +16,10 @@ const AppRoutes = [
   {
     path: '/cart',
     element: <Cart/>
+  },
+  {
+    path: '/checkout',
+    element: <CheckoutPage/>
   }
 ];
 
