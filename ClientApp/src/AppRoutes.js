@@ -1,7 +1,6 @@
-import { Counter } from "./components/Counter";
-import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
 import ProductDetails from "./components/Products/ProductDetails";
+import Cart from "./components/Carts/Cart";
 
 
 const AppRoutes = [
@@ -12,10 +11,14 @@ const AppRoutes = [
   {
     path: '/product/:id',
     element: <ProductDetails />
+  },
+  {
+    path: '/cart',
+    element: <Cart/>
   }
-
-
 ];
 
 
 export default AppRoutes;
+
+
